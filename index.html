@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Lato:wght@300&display=swap');
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/59f268c107.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <title>Baggify.com</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+           <div class="logo"><img src="./assets/logo.svg" alt="logo"></div>
+           <ul>
+            <li><a href="#back">About</a></li>
+            <li><a href="#back">Services</a></li>
+            <li><a href="#back">Contact Us</a></li>
+           </ul>
+          
+        </nav>
+        <div class="menu">
+            <ul id ="list">
+                <li id="space"><a href="#back">About</a></li>
+                <li id="space"><a href="#back">Services</a></li>
+                <li id="space"><a href="#back">Contact Us</a></li>
+               </ul>
+            <i class="fa fa-bars" aria-hidden="true" style="color: #2B3991; font-size: 20px;" id="bar" onclick="show()"></i>
+            <i class="fa-solid fa-xmark" aria-hidden="true" style="color: #2B3991; font-size: 20px;" id="x" onclick="hide()"></i>
+        </div>
+    </header>
+    
+    
+    <div class="first">
+        <div data-aos="fade-up"
+     data-aos-duration="3000">
+        <div class="one">
+        <h1>Coming Soon</h1>
+        <h6>Looking For Where To Purchase And Market Quality Bags? Then Anticipate Our Launch</h6>
+        <form action="" id="back">
+            <input type="text" id="fname" name="fname" placeholder="Enter your email address" class="enter" ><br>
+            <input type="submit" value="Join the waiting list" class="submit">
+        </form>
+        </div>
+        </div>
+        <div class="bag-pic">
+            <div data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="./assets/bag.svg">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="./assets/vec-one.svg" alt="message" class="social">
+        <img src="./assets/vec-two.svg" alt="web"class="social">
+        <img src="./assets/vec-three.svg" alt="instagram"class="social">
+        <img src="./assets/vec-four.svg" alt="facebook"class="social">
+        <img src="./assets/vec-five.svg" alt="twitter"class="social">
+
+    </footer>
+    <script src="./index.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
